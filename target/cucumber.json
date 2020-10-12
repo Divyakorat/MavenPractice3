@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 114661251863,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.OpenBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to enter all detail,",
+        "description": "user able to register successfully",
+        "id": "register-scenario;user-should-be-able-to-enter-all-detail,",
+        "after": [
+          {
+            "result": {
+              "duration": 5150572701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6953696178,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "MyStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3908201181,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on my Account",
+            "match": {
+              "location": "MyStepDef.user_click_on_my_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10468980017,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on register",
+            "match": {
+              "location": "MyStepDef.user_click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17335872535,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter all details",
+            "match": {
+              "location": "MyStepDef.user_Enter_all_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281172584,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able see success message successfully",
+            "match": {
+              "location": "MyStepDef.user_should_be_able_see_success_message_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Register Scenario",
+    "description": "",
+    "id": "register-scenario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Register.feature"
+  }
+]
